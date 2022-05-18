@@ -4,27 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilo.css">
-    <title>Contador de Números</title>
+    <title>Poligonos</title>
 </head>
 <body>
     <header>
-        <h1>Contador de Números</h1>
+        <h1>Poligonos</h1>
     </header>
     <section>
         <div>
-            <p>Digite um número (1 á 100): 
-                <input type="number" id="txtn" name="txtn">
-                <input type="button" value="Adicionar" onclick="add()">
-            </p>
+            <h1>Calculadora de Poligonos</h1>
+            <p>O poligono tem <input type="number" id="txtl" name="txtl"> lados.</p>
+            <p><input type="button" value="Verificar" onclick="verificar()"></p>
         </div>
-        <div>
-            <select name="result" id="result" size="7">
-
-            </select>
-            <p><input type="button" value="Finalizar" onclick="fim()"></p>
-        </div>
-        <div id="final">
-
+        <div id="result">
+            
         </div>
     </section>
     <footer>
